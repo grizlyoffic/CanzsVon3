@@ -1,7 +1,7 @@
 Flask==2.3.3
 pycryptodome==3.19.0
 requests==2.31.0
-protobuf==5.28.3
+protobuf==4.21.1
 googleapis-common-protos==1.63.0
 urllib3==2.1.0
 gunicorn==21.2.0
