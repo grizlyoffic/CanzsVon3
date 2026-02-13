@@ -2,7 +2,7 @@ Flask
 pycryptodome
 requests
 protobuf
-googleapis-common-protos==1.63.0
+googleapis-common-protos
 urllib3
 gunicorn
 certifi
