@@ -298,7 +298,7 @@ def process_ban(access_token):
             "Expect": "100-continue",
             "X-GA": "v1 1",
             "X-Unity-Version": "2018.4.11f1",
-            "ReleaseVersion": "OB51"
+            "ReleaseVersion": "OB52"
         }
 
         data_pb = SimpleProtobuf.create_login_payload(NEW_OPEN_ID, access_token, str(platform_))
@@ -347,7 +347,7 @@ def process_ban(access_token):
             'Authorization': f'Bearer {resp_msg.account_jwt}',
             'X-Unity-Version': '2018.4.11f1',
             'X-GA': 'v1 1',
-            'ReleaseVersion': 'OB51',
+            'ReleaseVersion': 'OB52',
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; G011A Build/PI)',
             'Host': 'clientbp.ggblueshark.com',
@@ -448,7 +448,7 @@ def process_blacklist(access_token):
             "Expect": "100-continue",
             "X-GA": "v1 1",
             "X-Unity-Version": "2018.4.11f1",
-            "ReleaseVersion": "OB51"
+            "ReleaseVersion": "OB52"
         }
 
         data_pb = SimpleProtobuf.create_login_payload(NEW_OPEN_ID, access_token, str(platform_))
@@ -497,7 +497,7 @@ def process_blacklist(access_token):
             'Authorization': f'Bearer {resp_msg.account_jwt}',
             'X-Unity-Version': '2018.4.11f1',
             'X-GA': 'v1 1',
-            'ReleaseVersion': 'OB51',
+            'ReleaseVersion': 'OB52',
             'Content-Type': 'application/x-www-form-urlencoded',
             'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 9; G011A Build/PI)',
             'Host': 'clientbp.ggblueshark.com',
